@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM redis:2.8
+FROM redis:7.4
 RUN apt-get update
 RUN apt-get install -yy -q python
 
