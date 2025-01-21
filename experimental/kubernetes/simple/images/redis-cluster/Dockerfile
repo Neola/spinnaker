@@ -1,4 +1,4 @@
-FROM redis:2.8
+FROM redis:7.4
 
 COPY redis-master.conf /redis-master/redis.conf
 COPY redis-slave.conf /redis-slave/redis.conf
